@@ -16,7 +16,7 @@ namespace ConsoleApp2
             char lastChar = ruble[ruble.Length - 1];
             if (ruble.Length >= 2 && ruble[ruble.Length - 2] == '1')
             {
-                rubleCase = "рублей";
+                rubleCase = "рублей"; //добавила комментарий
             }
             else if (lastChar == '1')
             {
